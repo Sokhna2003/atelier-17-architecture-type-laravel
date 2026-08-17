@@ -14,4 +14,10 @@ class HomeController
         // et les données à injecter dedans
         return View::render('home', ['titre' => 'Bienvenue à la bibliothèque']);
     }
+
+    public function about(): string
+    {
+        return View::render('about', ['message' => 'Mini-application type Laravel']);
+    }
+
 }
