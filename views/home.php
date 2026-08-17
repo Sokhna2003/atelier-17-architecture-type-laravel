@@ -11,7 +11,7 @@ $titre = $titre ?? 'Bibliothèque';
 <body class="bg-slate-100 text-slate-800 min-h-screen">
     <header class="bg-indigo-700 text-white">
         <div class="max-w-4xl mx-auto px-6 py-10">
-            // $titre est disponible directement grâce à extract() dans View::render()
+            <!-- $titre est disponible directement grâce à extract() dans View::render() -->
             <h1 class="text-3xl font-bold"><?= htmlspecialchars($titre) ?></h1>
             <p class="mt-2 text-indigo-100">Mini-application à l'architecture de Laravel.</p>
             <nav class="mt-4 flex gap-3 text-sm">

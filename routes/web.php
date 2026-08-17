@@ -6,3 +6,4 @@ use App\Controllers\HomeController;
 
 $router->add('GET', '/', [HomeController::class, 'index']);
 $router->add('GET', '/books', [BookController::class, 'index']);
+$router->add('GET', '/about', [HomeController::class, 'about']);  
